@@ -1,0 +1,8 @@
+#Step1-
+# pip install pyshorteners
+Step2-
+import pyshorteners
+
+Step3-
+Link = 'https://www.youtube.com/watch?v=b4qMka1WJIs'
+print(pyshorteners.Shortener().clckru.short(Link))
